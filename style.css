@@ -1,5 +1,17 @@
-div 
-{
+body {
+	text-align:center;
+	color: black;
+	background-color: #10939A;
+	font-size: 11pt;
+	font-family: serif;
+}
+
+p {margin-top:30px}
+
+.content {background-color: #b0c4de; margin:0 auto; width:960px; text-align:left; border: 2px solid black;}
+
+
+div {
 	background-color: #b0c4de;
 	font-size: 12pt;
 	font-family: "Times New Roman", Times, Georgia, serif;
@@ -28,3 +40,54 @@ h3
 	text-decoration: underline;
 }
 
+
+.left{
+		float:left;
+		position: relative;
+		background: #fff;
+		height: 300px;
+		padding:30px;
+		margin-right: 30px;
+		margin-left: 0px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+		-moz-box-shadow: 1px 1px 3px #222;
+		-moz-transform: rotate(-5deg);
+		-webkit-box-shadow: 1px 1px 3px #222;
+		-webkit-transform: rotate(-5deg);
+		box-shadow: 1px 1px 3px #222;
+		-o-transform: rotate(-5deg);
+		transform: rotate(-5deg);
+	}
+	
+.right {
+		float:right;
+		position: relative;
+		background: #fff;
+		height: 300px;
+		padding: 30px;
+		margin-left: 30px;
+		margin-right: 0px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+		-moz-box-shadow: 1px 1px 3px #222;
+		-moz-transform: rotate(+5deg);
+		-webkit-box-shadow: 1px 1px 3px #222;
+		-webkit-transform: rotate(+5deg);
+		box-shadow: 1px 1px 3px #222;
+		-o-transform: rotate(+5deg);
+		transform: rotate(+5deg);
+			}
+
+
+	.page{padding-left:30px; padding-right:30px; padding-top:20px; padding-bottom:0px}
+	
+	.menubar{ background-color #98bf21; height:10px;}
+	
+	ul#navlist{list-style-type:none; margin:0px; padding:0px;}
+	#navlist li{display:block; float:left; font-weight:bold; text-align:center; font-variant:small-caps;}
+	#navlist a{padding:10px 10px;}
+	
+	body#home a#homenav, body#resume a#resumenav {color: #fff; background-color: #3d6c87; text-decoration:none;}
