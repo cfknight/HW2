@@ -99,10 +99,10 @@ h3
 			
 	.page{padding-left:30px; padding-right:30px; padding-top:30px; padding-bottom:30px}
 	
-	.menubar{ background-color #98bf21; height:10px;}
+	.menubar{ text-align:center; background-color:#6e8b9d;}
 	
-	ul#navlist{list-style-type:none; margin:0px; padding:0px;}
-	#navlist li{display:block; float:left; font-weight:bold; text-align:center; font-variant:small-caps;}
-	#navlist a{padding:10px 10px;}
+	ul#navlist{list-style-type:none; margin:0px; padding:0px; height:50px; }
+	#navlist li{display:inline; font-weight:bold; font-variant:small-caps;}
+	#navlist a{padding:10px 10px; display:inline-block;}
 	
-	body#home a#homenav, body#resume a#resumenav {color: #fff; background-color: #3d6c87; text-decoration:none;}
+	body#home a#homenav, body#resume a#resumenav {color: #fff; text-decoration:none;}
