@@ -15,7 +15,7 @@ body {
 }
 
 p {margin-top:30px}
-a {text-decoration:none; color: #c4cca7; font-size:18pt;}
+a {text-decoration:none; font-size:18pt;}
 a:hover {text-decoration:underline; font-weight:bold; }
 
 .content { margin:0 auto; width:1200px; text-align:left; border: 2px solid black;}
@@ -23,7 +23,7 @@ a:hover {text-decoration:underline; font-weight:bold; }
 .main {font-variant: normal}
 
 div {
-	background-color: #6e8b9d;
+	background-color: #545456;
 	font-size: 14pt;
 	font-family: "Times New Roman", Times, Georgia, serif;
 	font-variant: small-caps;
@@ -94,10 +94,10 @@ h3
 		transform: rotate(+5deg);
 			}
 
-#Name_Header {text-align:center; font-size:14pt;}
+.Name_Header {text-align:center; font-size:14pt;}
 			
 			
-	.page{padding-left:30px; padding-right:30px; padding-top:20px; padding-bottom:0px}
+	.page{padding-left:30px; padding-right:30px; padding-top:30px; padding-bottom:30px}
 	
 	.menubar{ background-color #98bf21; height:10px;}
 	
