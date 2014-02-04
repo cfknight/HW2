@@ -15,7 +15,7 @@ body {
 }
 
 p {margin-top:30px}
-a {text-decoration:none; font-size:18pt;}
+a {text-decoration:none; font-size:18pt; color:c4cca7;}
 a:hover {text-decoration:underline; font-weight:bold; }
 
 .content { margin:0 auto; width:1200px; text-align:left; border: 2px solid black;}
@@ -103,6 +103,6 @@ h3
 	
 	ul#navlist{list-style-type:none; margin:0px; padding:0px; height:50px; }
 	#navlist li{display:inline; font-weight:bold; font-variant:small-caps;}
-	#navlist a{padding:10px 10px; display:inline-block;}
+	#navlist a{padding:10px 10px; display:inline-block; color:c4cca7;}
 	
 	body#home a#homenav, body#resume a#resumenav {color: #fff; text-decoration:none;}
